@@ -55,7 +55,7 @@ client v1.0 p-rogulski'2016
         var html = "";
         clients.forEach((val) => {
             if (val.nick) {
-                html += `<img src="./assets/img/connected.png" /> ${val.nick}<br>`
+                html += `${val.nick}<br>`
             }
         });
 
